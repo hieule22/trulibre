@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LoginPanel</title>
+
+	<!-- Google Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../styles/login.css" />
+	<script type="text/javascript" src="../scripts/login.js"></script>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<header id="header"> 
+		<h1> TruBooks </h1>
+	</header>
+
+	<main id="main"> 
+
+		<!-- Login Panel -->
+		<div id="login">
+
+			<!-- Input fields -->
+			<div id="input_fields">
+				<div class="form-group">
+    				<label for="username_input">Username</label>
+    				<input type="text" class="form-control" id="username" placeholder="Enter username">
+  				</div>
+  			
+  				<div class="form-group">
+    				<label for="password_input">Password</label>
+    				<input type="password" class="form-control" id="password" placeholder="Enter password">
+  				</div>
+			</div>
+
+			<!-- Login failure message -->
+			<div id="login_failure"></div>
+
+			<!-- <form action="../lib/verify_credential.php">
+				<div id="input_fields">
+					<div class="form-group">
+    					<label for="username_input">Username</label>
+    					<input type="text" class="form-control" id="username" placeholder="Enter username">
+  					</div>
+  			
+  					<div class="form-group">
+    					<label for="password_input">Password</label>
+    					<input type="password" class="form-control" id="password" placeholder="Enter password">
+  					</div>
+				</div>
+
+				<button type="submit" class="btn btn-default" id="login_button">Log In</button>
+			</form> -->
+			
+			
+			<!-- Buttons -->
+			<div id="buttons">
+			 	<button type="submit" class="btn btn-default" id="login_button">Log In</button>
+
+			 	<a href="signup.html" class="btn btn-default" id="signup_button">Sign Up</a>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html>
