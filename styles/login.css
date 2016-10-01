@@ -1,0 +1,59 @@
+body {
+	background-color: #F6F6F6;
+	margin: 0;
+}
+label {
+	color: #2B2B2B;
+}
+#buttons {
+	margin: 1% auto;
+	text-align: center;
+}
+#header {
+	width: 100%;
+}
+#header h1 {
+	color: #2B2B2B;
+	font-family: cursive, serif;
+	font-size: 35px;
+	margin-top: 0px;
+	padding-top: 1%;
+	text-align: center;
+}
+#input_fields {
+	margin: 0 auto;
+}
+#login {
+	margin: 0 auto;
+	width: 40%;
+}
+#login_button {
+	color: #2B2B2B;
+}
+#main {
+	margin-top: 2%;
+	width: 100%;
+}
+#password p {
+	font-size: 18px;
+	margin: 1% 0;
+}
+#password_input {
+	border-radius: 10px;
+}
+#signup_button {
+	color: #2B2B2B;
+}
+#username p {
+	font-size: 18px;
+	margin: 1% 0;
+}
+#username_input {
+	border-radius: 10px;
+}
+.error_message {
+	color: red;
+	font-weight: bold;
+	/*margin-left: 18%;*/
+	text-align: center;
+}
